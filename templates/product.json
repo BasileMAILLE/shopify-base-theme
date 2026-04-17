@@ -300,7 +300,7 @@
               "type": "text",
               "name": "Product description",
               "settings": {
-                "text": "{{ closest.product.description }}",
+                "text": "<p>Veste de tailleur ajustée SUNRISE. Fermeture croisée à deux boutons sur le devant. Poche poitrine et poches à rabat soulignent une ligne tailleur nette. Fabriquée en Europe.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
