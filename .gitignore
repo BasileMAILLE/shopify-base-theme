@@ -1,0 +1,8 @@
+.cursor/
+.claude/
+AGENTS.md
+CLAUDE.md
+copilot-instructions.md
+
+.DS_STORE
+node_modules/
