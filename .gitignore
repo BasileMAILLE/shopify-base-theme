@@ -1,8 +1,21 @@
-.cursor/
-.claude/
-AGENTS.md
-CLAUDE.md
-copilot-instructions.md
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.shopify
+node_modules
 
-.DS_STORE
-node_modules/
+# Local environment configurations
+shopify.environments.local.toml
+
+
+.env
+.dist
+*CLAUDE.*
+.claude/
+copilot-instructions.md
+AGENTS.md
+.cursor/
