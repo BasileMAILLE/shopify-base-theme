@@ -1,0 +1,1 @@
+/Users/basilemaille/Documents/Ecocea/Dev/Shopify/Themes/Theme template project/shopify-base-theme/AGENTS.md
