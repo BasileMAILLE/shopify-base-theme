@@ -333,7 +333,7 @@
         "columns": 2,
         "mobile_columns": "1",
         "mobile_card_size": "60cqw",
-        "columns_gap": 4,
+        "columns_gap": 0,
         "bento_gap": 4,
         "rows_gap": 4,
         "max_collections": 2,
