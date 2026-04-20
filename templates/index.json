@@ -16,7 +16,7 @@
           "type": "text",
           "name": "Heading",
           "settings": {
-            "text": "<h2>Nouvelle collection</h2>",
+            "text": "<h2>Nouvelle collections</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "right",
