@@ -324,7 +324,10 @@
       },
       "name": "Category editorial",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "collection1",
+          "collection10"
+        ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 2,
