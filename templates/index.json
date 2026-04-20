@@ -329,7 +329,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p><a href=\"/collections/vestes\" title=\"Vestes\">VOIR TOUR</a></p>",
+                    "text": "<p><a href=\"/collections/vestes\" title=\"Vestes\">Voir tout</a></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
