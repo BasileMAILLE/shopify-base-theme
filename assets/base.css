@@ -4944,3 +4944,120 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+
+/* ============================================
+   IRO Design System Overrides
+   ============================================ */
+
+/* Typography: uppercase + letter-spacing on all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.06em;
+}
+
+/* Uppercase for h1-h3 elements not styled via theme CSS class system */
+h1:not([class]),
+h2:not([class]),
+h3:not([class]) {
+  text-transform: uppercase;
+}
+
+/* Footer menu column titles must stay sentence case */
+.menu__heading {
+  text-transform: none !important;
+  letter-spacing: normal;
+}
+
+/* Navigation: uppercase + spaced */
+.menu-list__link,
+.mega-menu__link {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+}
+
+/* Variant labels (COULEUR, TAILLE) */
+.variant-picker__label,
+.product-form__label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+/* Product title */
+.product__title,
+.product-information h1 {
+  letter-spacing: 0.04em;
+}
+
+/* Add-to-cart: full width */
+.product-form__submit,
+.product-form .button--primary {
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Remove all box shadows */
+*,
+*:focus,
+.button,
+.card,
+.drawer,
+.popover {
+  box-shadow: none !important;
+}
+
+/* Accordion rows: thin top border, uppercase label — exclude footer menu headings */
+details summary:not(.menu__heading),
+.accordion__summary {
+  border-top: 1px solid #e0e0e0;
+  padding-block: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+details:last-child summary:not(.menu__heading),
+.accordion__item:last-child .accordion__summary {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Breadcrumb */
+.breadcrumb,
+nav[aria-label*="breadcrumb"] {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.45);
+  letter-spacing: 0.05em;
+}
+
+/* Price */
+.price__regular,
+.price--large {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* Product card: small uppercase text for title and price */
+.product-card__content product-price,
+.product-card__content [ref="productTitleLink"],
+.product-card__content .text-block {
+  font-size: var(--font-size--xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Product card: minimal vertical gap between image and info */
+.product-card__content {
+  --product-card-gap: 6px;
+}
+
+/* Email signup input: remove pill shape, use theme border radius */
+.email-signup__input {
+  border-radius: var(--style-border-radius-inputs) !important;
+}

@@ -19,3 +19,5 @@ shopify.environments.local.toml
 copilot-instructions.md
 AGENTS.md
 .cursor/
+
+.playwrigt-mcp/
