@@ -1438,9 +1438,9 @@ button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
 
 .button-secondary {
   --button-color: var(--color-secondary-button-text);
-  --button-background-color: var(--color-secondary-button-background);
+  --button-background-color: transparent;
   --button-border-color: var(--color-secondary-button-border);
-  --button-border-width: var(--style-border-width-secondary);
+  --button-border-width: 1px;
 }
 
 .button-secondary:hover {
