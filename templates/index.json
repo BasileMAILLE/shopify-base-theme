@@ -152,6 +152,7 @@
               "name": "t:names.product_card_media",
               "settings": {
                 "image_ratio": "portrait",
+                "default_to_second_image": true,
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -465,6 +466,7 @@
               "name": "Product card media",
               "settings": {
                 "image_ratio": "3/4",
+                "default_to_second_image": false,
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
