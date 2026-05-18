@@ -233,7 +233,7 @@
         "rows_gap": 24,
         "icons_style": "chevron",
         "icons_shape": "none",
-        "section_width": "page-width",
+        "section_width": "full-width",
         "horizontal_alignment": "flex-start",
         "gap": 24,
         "color_scheme": "scheme-1",
