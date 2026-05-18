@@ -219,6 +219,7 @@
     "checkout_buttons": "Allows buyers to check out faster and can improve conversion. [Learn more](https://help.shopify.com/manual/online-store/dynamic-checkout)",
     "custom_heading": "Custom heading",
     "custom_liquid": "Add app snippets or other code to create advanced customizations. [Learn more](https://shopify.dev/docs/api/liquid)",
+    "default_to_second_image": "Swaps the default and hover images. Requires the theme setting \"Show second image on hover\" to be enabled for the hover effect.",
     "edit_presets_in_theme_settings": "Edit presets in [theme settings](/editor?context=theme&category=typography)",
     "enable_filtering_info": "Customize filters with the [Search & Discovery app](https://help.shopify.com/manual/online-store/search-and-discovery/filters)",
     "grid_layout_on_mobile": "Grid layout is used for mobile",
@@ -840,6 +841,7 @@
     // Primary color scheme option, not specialized variants
     "default": "Default",
     "default_logo": "Default logo",
+    "default_to_second_image": "Show second image as default",
     "desktop_height": "Desktop height",
     "desktop_pagination": "Desktop pagination",
     "direction": "Direction",
