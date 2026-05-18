@@ -92,7 +92,17 @@
       # product.featured_media updates based on search context and filters applied
 
       assign other_media = product.media | reject: 'src', product.featured_media
-      assign media_list_to_show = product.featured_media | concat: other_media
+      if block_settings.default_to_second_image and other_media.size > 0
+        assign first_other = other_media.first
+        assign featured_arr = product.media | where: 'id', product.featured_media.id
+        assign media_list_to_show = first_other | concat: featured_arr
+        for item in other_media offset: 1
+          assign item_arr = product.media | where: 'id', item.id
+          assign media_list_to_show = media_list_to_show | concat: item_arr
+        endfor
+      else
+        assign media_list_to_show = product.featured_media | concat: other_media
+      endif
 
       if product.media.size > 2 and generic_media_size > 0
         assign show_arrows = true
@@ -116,9 +126,16 @@
           if variant_images contains media.src
             assign attributes = 'variant-image'
 
-            if forloop.first == false
-              # hide all variant images that aren't the first one
-              assign hidden = true
+            if block_settings.default_to_second_image and other_media.size > 0
+              # Keep slot 0 (image 2) and slot 1 (featured) visible so the hover swap can reach both
+              if forloop.index0 > 1
+                assign hidden = true
+              endif
+            else
+              if forloop.first == false
+                # hide all variant images that aren't the first one
+                assign hidden = true
+              endif
             endif
           endif
 
