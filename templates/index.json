@@ -555,19 +555,40 @@
         "padding-block-end": 40
       }
     },
-    "1779106484870b21c9": {
-      "type": "_blocks",
+    "section_JpkCLL": {
+      "type": "section",
       "blocks": {
-        "nosto_nosto_placements_block_qNMdyt": {
-          "type": "shopify://apps/nosto/blocks/nosto-placements-block/a67c43f0-0fc3-4649-a7dc-65ac499cae31",
+        "text_NCrAKA": {
+          "type": "text",
+          "name": "t:names.text",
           "settings": {
-            "placement": "frontpage-nosto-1"
-          }
+            "text": "<p><a href=\"https://cdn.shopify.com/s/files/1/0737/6607/6614/files/PRESENTATION_FR.pdf?v=1779384094\">We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</a></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "nosto_nosto_placements_block_qNMdyt"
+        "text_NCrAKA"
       ],
+      "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -578,7 +599,7 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
         "section_width": "page-width",
-        "section_height": "",
+        "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "",
         "background_media": "none",
@@ -602,6 +623,6 @@
     "product_list_fa6P9H",
     "collection_editorial_iro",
     "product_list_2_iro",
-    "1779106484870b21c9"
+    "section_JpkCLL"
   ]
 }
